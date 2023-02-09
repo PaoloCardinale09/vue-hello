@@ -9,7 +9,11 @@
 const app = Vue.createApp({
   data() {
     return {
-      message: "ciao",
+      saluto: "ciao",
+      nome: "Paolo",
+      cognome: "Cardinale",
+      immagine:
+        "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2022/03/the_sun_in_high_resolution/24010613-1-eng-GB/The_Sun_in_high_resolution_pillars.jpg",
     };
   },
 });
